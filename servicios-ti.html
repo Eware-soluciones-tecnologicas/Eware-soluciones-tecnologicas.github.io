@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="Somos una Software Factory especializada en desarrollo Web y Mobile, además de brindar una gran variedad de Servicios PMO, TI y Scrum para su empresa." name="description">
+	<meta content="Eware - Soluciones Tecnológicas" name="author">
+	<meta content="index,follow" name="robots"/>
+	<meta http-equiv="Cache-control" content="public">
+	<link href="style/images/favicon.png" rel="shortcut icon">
+	<title>Eware - Soluciones Tecnológicas</title>
+	<link href="style/css/bootstrap.min.css" rel="stylesheet">
+	<link href="style/css/plugins.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href="style/type/icons.css" rel="stylesheet">
+	<script src="style/js/jquery.min.js"></script>
+</head>
+<body>
+	<div id="preloader">
+		<div id="status">
+			<div class="spinner"></div>
+		</div>
+	</div>
+	<div class="body-wrapper">
+		<nav class="navbar solid">
+			<div class="container">
+				<div class="navbar-header">
+					<div class="basic-wrapper">
+						<a class="btn responsive-menu" data-target=".navbar-collapse" data-toggle="collapse"><i></i></a>
+						<div class="navbar-brand">
+							<a href="index"><img alt="ti" class="logo-light" src="#" srcset="style/images/logo.png 1x, style/images/logo@2x.png 2x"><img alt="ti" class="logo-dark" src="#" srcset="style/images/logo-dark.png 1x, style/images/logo-dark@2x.png 2x"></a>
+						</div><!-- /.navbar-brand -->
+					</div><!-- /.basic-wrapper -->
+				</div><!-- /.navbar-header -->
+				<div id="home">
+					<div id="nav-placeholder">
+		
+					</div>
+					<script>
+						$(function(){
+						  $("#nav-placeholder").load("nav.html");
+						});
+					</script>
+				</div>
+			</div><!-- /.container -->
+		</nav><!-- /.navbar -->
+		<div class="offset"></div>
+		<div class="white-wrapper">
+			<div class="col-image">
+				<div class="bg-wrapper col-md-3 img-fixed">
+					<div class="bg-holder" style="background-image: url(style/images/art/serviciosti.jpg);"></div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9 col-md-offset-3 inner-col">
+							<div class="section-title">
+								<h1>Servicios TI</h1>
+							</div>
+							<p>Contamos con una oferta de servicios TI basado en las buenas prácticas del marco de referencia ITIL v3:</p>
+							<div class="row">
+								<div class="col-sm-6 col-md-12">
+									<ul class="circled">
+										<li><strong>Soporte Técnico</strong></li>
+									</ul>
+									<p>Estrategia de soporte y mantenimiento basado en acuerdos de nivel de servicios (SLA), con el fin de asegurar el correcto funcionamiento de la aplicación y satisfacer así, todas las mejoras, cambios y correcciones que puedan surgir en el tiempo debido a la evolución del producto o proyecto.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-12">
+									<ul class="circled">
+										<li><strong>Continuidad Operacional</strong></li>
+									</ul>
+									<p>Con el fin de externalizar funciones técnicas de carácter crítico, pero no centrales de su negocio, y así liberar recursos internos que le permitirán focalizarse en sus actividades comerciales y productivas (core-business), Eware pone a disposición el equipo de trabajo que asegurará la continuidad operacional de sus procesos y aplicaciones.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-12">
+									<ul class="circled">
+										<li><strong>Explotación de Sistemas</strong></li>
+									</ul>
+									<p>Personal especializado en explotación de sistemas y tratamiento de operaciones masivas, realiza en forma remota desde las oficinas de Eware, la ejecución de procesos, validación, distribución a usuarios internos e intercambio de información con terceros.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6 col-md-12">
+									<ul class="circled">
+										<li><strong>Servicios Profesionales</strong></li>
+									</ul>
+									<p>Evitamos hacer nuevos procesos de selección para el personal que requiera, puesto que esto tiene un costo que normalmente es traspasado a su empresa en forma de personal sin la calificación o experiencia necesaria. En Eware proveemos colaboradores de nuestra planta y para garantizar los servicios, le damos plazo para avisarnos de su no conformidad y no aplicaremos costo alguno para su empresa.</p>
+								</div>
+							</div>
+							<div class="divide30"></div>
+							<div class="aligncenter">
+								<a class="btn btn-blue" href="mailto:comercial@ewarecorp.com?subject=Solicito%20informaci%C3%B3n%20Servicios%20TI"><i class="icon-mail"></i> Solicitar más Información</a>
+							</div>
+						</div>
+					</div><!--/.row -->
+				</div><!--/.container -->
+			</div><!--/.col-image -->
+		</div><!-- /.white-wrapper -->
+		<footer class="inverse-wrapper">
+			<div class="container inner">
+				<p class="copyright pull-left" id="firma"></p>
+			</div>
+		</footer><!-- /footer -->
+	</div><!--/.body-wrapper -->
+	<script src="style/js/jquery.min.js">
+	</script>
+	<script src="style/js/bootstrap.min.js">
+	</script>
+	<script src="style/js/plugins.js">
+	</script>
+	<script src="style/js/jquery.themepunch.tools.min.js">
+	</script>
+	<script src="style/js/scripts.js">
+	</script>
+	<script type="text/javascript">
+		$(function(){
+			var d = new Date();
+			var anio = d.getFullYear();
+			$('#firma').html("2003-"+anio+" © Eware. Todos los derechos reservados.");
+		});
+	</script>
+</body>
+</html>

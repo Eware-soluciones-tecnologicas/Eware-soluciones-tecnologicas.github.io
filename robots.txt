@@ -1,0 +1,8 @@
+User-agent:*
+Disallow:/certificaciones.html
+Disallow:/historia.html
+Disallow:/politica-privacidad.html
+Disallow:/sobre-eware.html
+Disallow:/style
+Disallow:/style.css
+Sitemap:http://www.eware.cl/test/sitemap.xml
