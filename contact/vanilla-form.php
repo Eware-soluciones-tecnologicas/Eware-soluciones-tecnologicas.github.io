@@ -2,7 +2,7 @@
 // If is not empty it sets a header From in e-mail message (sets sender e-mail).
 // Note: some hosting servers can block sending e-mails with custom From field in header.
 //       If so, leave this field as empty.
-define('FROM_EMAIL', 'servicioalcliente@ewarecorp.com');
+define('FROM_EMAIL', 'sistemas@ewarecorp.com');
 // Recipient's e-mail. To this e-mail messages will be sent.
 // e.g.: john@example.com
 // multiple recipients e.g.: john@example.com, andy@example.com
@@ -129,8 +129,9 @@ function getIp() {
  */
 
 
-
-if(!empty($_POST["recaptcha"])) {
+sendMessage();
+die();
+/*if(!empty($_POST["recaptcha"])) {
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $recaptcha = $_POST["recaptcha"];
